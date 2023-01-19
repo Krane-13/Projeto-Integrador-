@@ -1,0 +1,37 @@
+*{
+    font-family:arial;
+}
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    display:flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #00510f;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    width:990px;
+}
+.container img{
+    max-width:200px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    align-items: left;
+}
+.menu{
+    display:flex;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+nav ul{
+    display:flex;
+}
