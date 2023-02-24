@@ -1,17 +1,20 @@
+<?php
+require '../PROJETO/config.php'
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../assets/css/header.css" >
-    <title>HEADER</title>
+    <link rel="stylesheet" type="text/css" href="../PROJETO/assets/css/header.css" >
+    
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <a href="https://ifrs.edu.br/rolante/"><img src="../assets/img/logo.png"/></a>
+                <a href="https://ifrs.edu.br/rolante/"><img src="../PROJETO/assets/img/logo.png"/></a>
             </div>
             <div class="menu" border="1">
                 <nav>
@@ -20,8 +23,8 @@
                         <div class="mm_line"></div>
                     </div>
                     <ul>
-                        <li class="active"><a href="../index.php">MUSCLE</a></li>
-                        <li><a href="../calculadora.html">CALCULADORA IMC</a></li>
+                        <li class="active"><a href="<?=$base;?>/index.php">MUSCLE</a></li>
+                        <li><a href="<?=$base;?>/calculadora.php">CALCULADORA IMC</a></li>
                     </ul>
                 </nav>
             </div>
